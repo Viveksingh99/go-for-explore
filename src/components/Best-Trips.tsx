@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const BestTrips = () => {
@@ -20,7 +21,7 @@ const BestTrips = () => {
           </div>
           <div className="row align-items-center">
             <div className="col-lg-5">
-              <a href="https://go4explore.com/trip/vietnam">
+              <Link href="https://go4explore.com/trip/vietnam">
                 <div className="trend-item1 mb-4">
                   <div className="trend-image position-relative rounded">
                     <Image
@@ -37,8 +38,8 @@ const BestTrips = () => {
                     <div className="color-overlay" />
                   </div>
                 </div>
-              </a>
-              <a href="https://go4explore.com/trip/bali">
+              </Link>
+              <Link href="https://go4explore.com/trip/bali">
                 <div className="trend-item1 mb-4">
                   <div className="trend-image position-relative rounded">
                     <Image
@@ -55,12 +56,12 @@ const BestTrips = () => {
                     <div className="color-overlay" />
                   </div>
                 </div>
-              </a>
+              </Link>
             </div>
             <div className="col-lg-7">
               <div className="row">
                 <div className="col-lg-4 col-md-4 col-xs-6 mb-4">
-                  <a href="https://go4explore.com/trip/dubai">
+                  <Link href="https://go4explore.com/trip/dubai">
                     <div className="trend-item1">
                       <div className="trend-image position-relative rounded">
                         <Image
@@ -77,10 +78,10 @@ const BestTrips = () => {
                         <div className="color-overlay" />
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div className="col-lg-4 col-md-4 col-xs-6 mb-4">
-                  <a href="https://go4explore.com/trip/kashmir">
+                  <Link href="https://go4explore.com/trip/kashmir">
                     <div className="trend-item1">
                       <div className="trend-image position-relative rounded">
                         <Image
@@ -97,10 +98,10 @@ const BestTrips = () => {
                         <div className="color-overlay" />
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div className="col-lg-4 col-md-4 col-xs-6 mb-4">
-                  <a href="https://go4explore.com/trip/kerala">
+                  <Link href="https://go4explore.com/trip/kerala">
                     <div className="trend-item1">
                       <div className="trend-image position-relative rounded">
                         <Image
@@ -117,10 +118,10 @@ const BestTrips = () => {
                         <div className="color-overlay" />
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div className="col-lg-4 col-md-4 col-xs-6 mb-4">
-                  <a href="https://go4explore.com/trip/singapore">
+                  <Link href="https://go4explore.com/trip/singapore">
                     <div className="trend-item1">
                       <div className="trend-image position-relative rounded">
                         <Image
@@ -137,10 +138,10 @@ const BestTrips = () => {
                         <div className="color-overlay" />
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div className="col-lg-4 col-md-4 col-sm-6 mb-4">
-                  <a href="https://go4explore.com/trip/thailand">
+                  <Link href="https://go4explore.com/trip/thailand">
                     <div className="trend-item1">
                       <div className="trend-image position-relative rounded">
                         <Image
@@ -157,10 +158,10 @@ const BestTrips = () => {
                         <div className="color-overlay" />
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div className="col-lg-4 col-md-4 col-xs-6 mb-4">
-                  <a href="https://go4explore.com/trip/himachal-pradesh-tour-packages">
+                  <Link href="https://go4explore.com/trip/himachal-pradesh-tour-packages">
                     <div className="trend-item1">
                       <div className="trend-image position-relative rounded">
                         <Image
@@ -177,10 +178,10 @@ const BestTrips = () => {
                         <div className="color-overlay" />
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div className="col-lg-4 col-md-4 col-xs-6 mb-4">
-                  <a href="https://go4explore.com/trip/sri-lanka">
+                  <Link href="https://go4explore.com/trip/sri-lanka">
                     <div className="trend-item1">
                       <div className="trend-image position-relative rounded">
                         <Image
@@ -197,10 +198,10 @@ const BestTrips = () => {
                         <div className="color-overlay" />
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div className="col-lg-4 col-md-4 col-xs-6 mb-4">
-                  <a href="https://go4explore.com/trip/maldives">
+                  <Link href="https://go4explore.com/trip/maldives">
                     <div className="trend-item1">
                       <div className="trend-image position-relative rounded">
                         <Image
@@ -217,10 +218,10 @@ const BestTrips = () => {
                         <div className="color-overlay" />
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div className="col-lg-4 col-md-4 col-xs-6 mb-4">
-                  <a href="https://go4explore.com/trip/rajasthan">
+                  <Link href="https://go4explore.com/trip/rajasthan">
                     <div className="trend-item1">
                       <div className="trend-image position-relative rounded">
                         <Image
@@ -237,10 +238,10 @@ const BestTrips = () => {
                         <div className="color-overlay" />
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div className="col-lg-4 col-md-4 col-xs-6 mb-4">
-                  <a href="https://go4explore.com/trip/azerbaijan">
+                  <Link href="https://go4explore.com/trip/azerbaijan">
                     <div className="trend-item1">
                       <div className="trend-image position-relative rounded">
                         <Image
@@ -257,10 +258,10 @@ const BestTrips = () => {
                         <div className="color-overlay" />
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div className="col-lg-4 col-md-4 col-xs-6 mb-4">
-                  <a href="https://go4explore.com/trip/turkey">
+                  <Link href="https://go4explore.com/trip/turkey">
                     <div className="trend-item1">
                       <div className="trend-image position-relative rounded">
                         <Image
@@ -277,10 +278,10 @@ const BestTrips = () => {
                         <div className="color-overlay" />
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div className="col-lg-4 col-md-4 col-sm-6 mb-4">
-                  <a href="https://go4explore.com/trip/georgia">
+                  <Link href="https://go4explore.com/trip/georgia">
                     <div className="trend-item1">
                       <div className="trend-image position-relative rounded">
                         <Image
@@ -297,7 +298,7 @@ const BestTrips = () => {
                         <div className="color-overlay" />
                       </div>
                     </div>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

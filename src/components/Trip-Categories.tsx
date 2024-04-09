@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Trip = () => {
@@ -14,7 +15,7 @@ const Trip = () => {
           <div className="trip-categories-slider">
             <div className="col-auto" style={{ textAlign: "center" }}>
               <div className="text-center who-are-we-steps mx-auto">
-                <a
+                <Link
                   className="moveto"
                   href="https://go4explore.com/trips-category/weekend-trips"
                 >
@@ -26,12 +27,12 @@ const Trip = () => {
                     alt="trekking"
                   />
                   <p className="fs-2md fw-bold mt-3">Weekend Trips</p>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-auto" style={{ textAlign: "center" }}>
               <div className="text-center who-are-we-steps mx-auto">
-                <a
+                <Link
                   className="moveto"
                   href="https://go4explore.com/trips-category/honeymoon-packages"
                 >
@@ -43,12 +44,12 @@ const Trip = () => {
                     alt="trekking"
                   />
                   <p className="fs-2md fw-bold mt-3">Honeymoon Packages</p>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-auto" style={{ textAlign: "center" }}>
               <div className="text-center who-are-we-steps mx-auto">
-                <a
+                <Link
                   className="moveto"
                   href="https://go4explore.com/trips-category/backpacking-trips"
                 >
@@ -60,12 +61,12 @@ const Trip = () => {
                     alt="trekking"
                   />
                   <p className="fs-2md fw-bold mt-3">Backpacking Trips</p>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-auto" style={{ textAlign: "center" }}>
               <div className="text-center who-are-we-steps mx-auto">
-                <a
+                <Link
                   className="moveto"
                   href="https://go4explore.com/trips-category/camping-trip"
                 >
@@ -77,12 +78,12 @@ const Trip = () => {
                     alt="trekking"
                   />
                   <p className="fs-2md fw-bold mt-3">Camping Trip</p>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-auto" style={{ textAlign: "center" }}>
               <div className="text-center who-are-we-steps mx-auto">
-                <a
+                <Link
                   className="moveto"
                   href="https://go4explore.com/trips-category/international-trips"
                 >
@@ -94,12 +95,12 @@ const Trip = () => {
                     alt="trekking"
                   />
                   <p className="fs-2md fw-bold mt-3">International Trips</p>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-auto" style={{ textAlign: "center" }}>
               <div className="text-center who-are-we-steps mx-auto">
-                <a
+                <Link
                   className="moveto"
                   href="https://go4explore.com/trips-category/trekking"
                 >
@@ -111,12 +112,12 @@ const Trip = () => {
                     alt="trekking"
                   />
                   <p className="fs-2md fw-bold mt-3">Trekking</p>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-auto" style={{ textAlign: "center" }}>
               <div className="text-center who-are-we-steps mx-auto">
-                <a
+                <Link
                   className="moveto"
                   href="https://go4explore.com/trips-category/corporate-trips"
                 >
@@ -128,12 +129,12 @@ const Trip = () => {
                     alt="trekking"
                   />
                   <p className="fs-2md fw-bold mt-3">Corporate Trips</p>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-auto" style={{ textAlign: "center" }}>
               <div className="text-center who-are-we-steps mx-auto">
-                <a
+                <Link
                   className="moveto"
                   href="https://go4explore.com/trips-category/road-trips"
                 >
@@ -145,7 +146,7 @@ const Trip = () => {
                     alt="trekking"
                   />
                   <p className="fs-2md fw-bold mt-3">Road Trips</p>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

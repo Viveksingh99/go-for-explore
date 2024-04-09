@@ -2,18 +2,15 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const UpcomingTrips = () => {
+const ExploreTop = () => {
   return (
     <>
-      <section className="upcoming">
+      <section className="best-saller">
         <div className="container">
           <div className="section-title mb-6 mx-auto text-center">
-            {/* <h4 class="mb-1 theme1">Top Offers</h4> */}
             <h2 className="mb-1">
-              Upcoming <span className="theme">Trips</span> Packages
+              Explore <span className="theme">Top</span> Destinations
             </h2>
-            {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
-    </p> */}
           </div>
           <div className="row justify-content-center">
             <div className="upcoming-trips-slider">
@@ -27,6 +24,7 @@ const UpcomingTrips = () => {
                         height={100}
                         src="https://d2qa7a8q0vuocm.cloudfront.net/images/10635320231113122348.png"
                         alt="upcoming-trips"
+                        style={{ width: 264, height: 148 }}
                       />
                       <div className="color-overlay" />
                     </div>
@@ -50,8 +48,10 @@ const UpcomingTrips = () => {
                     <p className=" border-b pb-2 mb-1" />
                     <div className="entry-meta">
                       <div className="entry-author d-flex align-items-center">
-                        <p className="mb-0">₹45000 | Per person</p>
-                        <p />
+                        <p className="mb-0">
+                          <span className="theme fw-bold fs-5">₹45000</span> |
+                          Per person
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -67,6 +67,7 @@ const UpcomingTrips = () => {
                         height={100}
                         src="https://d2qa7a8q0vuocm.cloudfront.net/images/39972720231024132811.png"
                         alt="upcoming-trips"
+                        style={{ width: 264, height: 148 }}
                       />
                       <div className="color-overlay" />
                     </div>
@@ -91,9 +92,9 @@ const UpcomingTrips = () => {
                     <div className="entry-meta">
                       <div className="entry-author d-flex align-items-center">
                         <p className="mb-0">
-                          <s>₹ 21499</s> ₹19999 | Per person
+                          <span className="theme fw-bold fs-5">₹21499</span> |
+                          Per person
                         </p>
-                        <p />
                       </div>
                     </div>
                   </div>
@@ -109,6 +110,7 @@ const UpcomingTrips = () => {
                         height={100}
                         src="https://d2qa7a8q0vuocm.cloudfront.net/images/396320230630111014.png"
                         alt="upcoming-trips"
+                        style={{ width: 264, height: 148 }}
                       />
                       <div className="ribbon ribbon-top-left">
                         <span className="fw-bold">₹5000 OFF</span>
@@ -137,7 +139,9 @@ const UpcomingTrips = () => {
                     <div className="entry-meta">
                       <div className="entry-author d-flex align-items-center">
                         <p className="mb-0">
-                          <s>₹ 75000</s> ₹70000 | Per person
+                          <span className="line-through">₹75000</span>
+                          <span className="theme fw-bold fs-5"> ₹70000</span> |
+                          | Per person
                         </p>
                       </div>
                     </div>
@@ -154,6 +158,7 @@ const UpcomingTrips = () => {
                         height={100}
                         src="https://d2qa7a8q0vuocm.cloudfront.net/images/36351120230330170705.png"
                         alt="upcoming-trips"
+                        style={{ width: 264, height: 148 }}
                       />
                       <div className="ribbon ribbon-top-left">
                         <span className="fw-bold">₹5500 OFF</span>
@@ -181,7 +186,9 @@ const UpcomingTrips = () => {
                     <div className="entry-meta">
                       <div className="entry-author d-flex align-items-center">
                         <p className="mb-0">
-                          <s>₹ 27000</s> ₹21500 | Per person
+                          <span className="line-through">₹27000</span>
+                          <span className="theme fw-bold fs-5"> ₹21500</span> |
+                          | Per person
                         </p>
                       </div>
                     </div>
@@ -198,6 +205,7 @@ const UpcomingTrips = () => {
                         height={100}
                         src="https://d2qa7a8q0vuocm.cloudfront.net/images/33104120220720040415.png"
                         alt="upcoming-trips"
+                        style={{ width: 264, height: 148 }}
                       />
                       <div className="color-overlay" />
                     </div>
@@ -221,8 +229,10 @@ const UpcomingTrips = () => {
                     <p className=" border-b pb-2 mb-1" />
                     <div className="entry-meta">
                       <div className="entry-author d-flex align-items-center">
-                        <p className="mb-0">₹21000 | Per person</p>
-                        <p />
+                        <p className="mb-0">
+                          <span className="theme fw-bold fs-5">₹21000</span> |
+                          Per person
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -238,6 +248,7 @@ const UpcomingTrips = () => {
                         height={100}
                         src="https://d2qa7a8q0vuocm.cloudfront.net/images/15700420230330171626.png"
                         alt="upcoming-trips"
+                        style={{ width: 264, height: 148 }}
                       />
                       <div className="ribbon ribbon-top-left">
                         <span className="fw-bold">₹7000 OFF</span>
@@ -265,7 +276,9 @@ const UpcomingTrips = () => {
                     <div className="entry-meta">
                       <div className="entry-author d-flex align-items-center">
                         <p className="mb-0">
-                          <s>₹ 37000</s> ₹30000 | Per person
+                          <span className="line-through">₹37000</span>
+                          <span className="theme fw-bold fs-5"> ₹30000</span> |
+                          | Per person
                         </p>
                       </div>
                     </div>
@@ -282,6 +295,7 @@ const UpcomingTrips = () => {
                         height={100}
                         src="https://d2qa7a8q0vuocm.cloudfront.net/images/20380220200228132700.png"
                         alt="upcoming-trips"
+                        style={{ width: 264, height: 148 }}
                       />
                       <div className="color-overlay" />
                     </div>
@@ -305,8 +319,10 @@ const UpcomingTrips = () => {
                     <p className=" border-b pb-2 mb-1" />
                     <div className="entry-meta">
                       <div className="entry-author d-flex align-items-center">
-                        <p className="mb-0">₹17999 | Per person</p>
-                        <p />
+                        <p className="mb-0">
+                          <span className="theme fw-bold fs-5">₹17999</span> |
+                          Per person
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -322,6 +338,7 @@ const UpcomingTrips = () => {
                         height={100}
                         src="https://d2qa7a8q0vuocm.cloudfront.net/images/24503320230702175334.png"
                         alt="upcoming-trips"
+                        style={{ width: 264, height: 148 }}
                       />
                       <div className="color-overlay" />
                     </div>
@@ -346,9 +363,9 @@ const UpcomingTrips = () => {
                     <div className="entry-meta">
                       <div className="entry-author d-flex align-items-center">
                         <p className="mb-0">
-                          <s>₹ 6999</s> ₹6499 | Per person
+                          <span className="theme fw-bold fs-5">₹6999</span> |
+                          Per person
                         </p>
-                        <p />
                       </div>
                     </div>
                   </div>
@@ -362,4 +379,4 @@ const UpcomingTrips = () => {
   );
 };
 
-export default UpcomingTrips;
+export default ExploreTop;

@@ -1,6 +1,19 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import {
+  Navigation,
+  Pagination,
+  Scrollbar,
+  A11y,
+  Autoplay,
+} from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
 
 const Footer = () => {
   return (
@@ -21,141 +34,167 @@ const Footer = () => {
                 </Link>
               </div>
               <div className="row instagram-slider">
-                <div className="col-md-3 col-sm-6">
-                  <div className="insta-image rounded">
-                    <Link
-                      href="https://www.instagram.com/go4explore.community"
-                      target="_blank"
-                    >
-                      <Image
-                        width={100}
-                        height={100}
-                        src="https://d2qa7a8q0vuocm.cloudfront.net/images/9611920230309080512.png"
-                        alt="insta"
-                      />
-                    </Link>
-                  </div>
-                </div>
-                <div className="col-md-3 col-sm-6">
-                  <div className="insta-image rounded">
-                    <Link
-                      href="https://www.instagram.com/go4explore.community"
-                      target="_blank"
-                    >
-                      <Image
-                        width={100}
-                        height={100}
-                        src="https://d2qa7a8q0vuocm.cloudfront.net/images/13180820230309080504.png"
-                        alt="insta"
-                      />
-                    </Link>
-                  </div>
-                </div>
-                <div className="col-md-3 col-sm-6">
-                  <div className="insta-image rounded">
-                    <Link
-                      href="https://www.instagram.com/go4explore.community"
-                      target="_blank"
-                    >
-                      <Image
-                        width={100}
-                        height={100}
-                        src="https://d2qa7a8q0vuocm.cloudfront.net/images/35107020230309080455.png"
-                        alt="insta"
-                      />
-                    </Link>
-                  </div>
-                </div>
-                <div className="col-md-3 col-sm-6">
-                  <div className="insta-image rounded">
-                    <Link
-                      href="https://www.instagram.com/go4explore.community"
-                      target="_blank"
-                    >
-                      <Image
-                        width={100}
-                        height={100}
-                        src="https://d2qa7a8q0vuocm.cloudfront.net/images/7548520230309080444.png"
-                        alt="insta"
-                      />
-                    </Link>
-                  </div>
-                </div>
-                <div className="col-md-3 col-sm-6">
-                  <div className="insta-image rounded">
-                    <Link
-                      href="https://www.instagram.com/go4explore.community"
-                      target="_blank"
-                    >
-                      <Image
-                        width={100}
-                        height={100}
-                        src="https://d2qa7a8q0vuocm.cloudfront.net/images/32709120230309080435.png"
-                        alt="insta"
-                      />
-                    </Link>
-                  </div>
-                </div>
-                <div className="col-md-3 col-sm-6">
-                  <div className="insta-image rounded">
-                    <Link
-                      href="https://www.instagram.com/go4explore.community"
-                      target="_blank"
-                    >
-                      <Image
-                        width={100}
-                        height={100}
-                        src="https://d2qa7a8q0vuocm.cloudfront.net/images/13828220230309080425.png"
-                        alt="insta"
-                      />
-                    </Link>
-                  </div>
-                </div>
-                <div className="col-md-3 col-sm-6">
-                  <div className="insta-image rounded">
-                    <Link
-                      href="https://www.instagram.com/go4explore.community"
-                      target="_blank"
-                    >
-                      <Image
-                        width={100}
-                        height={100}
-                        src="https://d2qa7a8q0vuocm.cloudfront.net/images/11079920230309080416.png"
-                        alt="insta"
-                      />
-                    </Link>
-                  </div>
-                </div>
-                <div className="col-md-3 col-sm-6">
-                  <div className="insta-image rounded">
-                    <Link
-                      href="https://www.instagram.com/go4explore.community"
-                      target="_blank"
-                    >
-                      <Image
-                        width={100}
-                        height={100}
-                        src="https://d2qa7a8q0vuocm.cloudfront.net/images/26764320230309080403.png"
-                        alt="insta"
-                      />
-                    </Link>
-                  </div>
-                </div>
-                <div className="col-md-3 col-sm-6">
-                  <div className="insta-image rounded">
-                    <Link
-                      href="https://www.instagram.com/go4explore.community"
-                      target="_blank"
-                    >
-                      <Image
-                        width={100}
-                        height={100}
-                        src="https://d2qa7a8q0vuocm.cloudfront.net/images/1084820230309075911.png"
-                        alt="insta"
-                      />
-                    </Link>
-                  </div>
-                </div>
+                <Swiper
+                  modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
+                  spaceBetween={2}
+                  slidesPerView={4}
+                  autoplay={{ delay: 3000 }}
+                >
+                  <SwiperSlide>
+                    <div className="col-md-3 col-sm-6">
+                      <div className="insta-image rounded">
+                        <Link
+                          href="https://www.instagram.com/go4explore.community"
+                          target="_blank"
+                        >
+                          <Image
+                            width={200}
+                            height={200}
+                            src="https://d2qa7a8q0vuocm.cloudfront.net/images/9611920230309080512.png"
+                            alt="insta"
+                          />
+                        </Link>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="col-md-3 col-sm-6">
+                      <div className="insta-image rounded">
+                        <Link
+                          href="https://www.instagram.com/go4explore.community"
+                          target="_blank"
+                        >
+                          <Image
+                            width={200}
+                            height={200}
+                            src="https://d2qa7a8q0vuocm.cloudfront.net/images/13180820230309080504.png"
+                            alt="insta"
+                          />
+                        </Link>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="col-md-3 col-sm-6">
+                      <div className="insta-image rounded">
+                        <Link
+                          href="https://www.instagram.com/go4explore.community"
+                          target="_blank"
+                        >
+                          <Image
+                            width={200}
+                            height={200}
+                            src="https://d2qa7a8q0vuocm.cloudfront.net/images/35107020230309080455.png"
+                            alt="insta"
+                          />
+                        </Link>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="col-md-3 col-sm-6">
+                      <div className="insta-image rounded">
+                        <Link
+                          href="https://www.instagram.com/go4explore.community"
+                          target="_blank"
+                        >
+                          <Image
+                            width={200}
+                            height={200}
+                            src="https://d2qa7a8q0vuocm.cloudfront.net/images/7548520230309080444.png"
+                            alt="insta"
+                          />
+                        </Link>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="col-md-3 col-sm-6">
+                      <div className="insta-image rounded">
+                        <Link
+                          href="https://www.instagram.com/go4explore.community"
+                          target="_blank"
+                        >
+                          <Image
+                            width={200}
+                            height={200}
+                            src="https://d2qa7a8q0vuocm.cloudfront.net/images/32709120230309080435.png"
+                            alt="insta"
+                          />
+                        </Link>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="col-md-3 col-sm-6">
+                      <div className="insta-image rounded">
+                        <Link
+                          href="https://www.instagram.com/go4explore.community"
+                          target="_blank"
+                        >
+                          <Image
+                            width={200}
+                            height={200}
+                            src="https://d2qa7a8q0vuocm.cloudfront.net/images/13828220230309080425.png"
+                            alt="insta"
+                          />
+                        </Link>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="col-md-3 col-sm-6">
+                      <div className="insta-image rounded">
+                        <Link
+                          href="https://www.instagram.com/go4explore.community"
+                          target="_blank"
+                        >
+                          <Image
+                            width={200}
+                            height={200}
+                            src="https://d2qa7a8q0vuocm.cloudfront.net/images/11079920230309080416.png"
+                            alt="insta"
+                          />
+                        </Link>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <div className="col-md-3 col-sm-6">
+                      <div className="insta-image rounded">
+                        <Link
+                          href="https://www.instagram.com/go4explore.community"
+                          target="_blank"
+                        >
+                          <Image
+                            width={200}
+                            height={200}
+                            src="https://d2qa7a8q0vuocm.cloudfront.net/images/26764320230309080403.png"
+                            alt="insta"
+                          />
+                        </Link>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+
+                  <SwiperSlide>
+                    <div className="col-md-3 col-sm-6">
+                      <div className="insta-image rounded">
+                        <Link
+                          href="https://www.instagram.com/go4explore.community"
+                          target="_blank"
+                        >
+                          <Image
+                            width={200}
+                            height={200}
+                            src="https://d2qa7a8q0vuocm.cloudfront.net/images/1084820230309075911.png"
+                            alt="insta"
+                          />
+                        </Link>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                </Swiper>
               </div>
             </div>
           </div>
@@ -166,8 +205,8 @@ const Footer = () => {
               <div className="col-lg-4 col-md-6 col-sm-12 mb-4 pe-4">
                 <div className="footer-about">
                   <Image
-                    width={100}
-                    height={100}
+                    width={200}
+                    height={200}
                     src="https://d2qa7a8q0vuocm.cloudfront.net/frontend/assets/img/go4explore-logo-white.png"
                     alt="image"
                   />
@@ -305,8 +344,8 @@ const Footer = () => {
                   </li>
                   <li className="me-2">
                     <Image
-                      width={100}
-                      height={100}
+                      width={500}
+                      height={500}
                       src="https://d2qa7a8q0vuocm.cloudfront.net/frontend/assets/img/payment-mode.png"
                       alt="image"
                     />
@@ -321,7 +360,6 @@ const Footer = () => {
             <div className="copyright-inner rounded p-3 d-md-flex align-items-center justify-content-between">
               <div className="copyright-text">
                 <p className="m-0 white">
-                  {" "}
                   © 2017-2023 Wander N Explore Pvt. Ltd. All Rights Reserved.
                 </p>
               </div>

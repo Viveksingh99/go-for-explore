@@ -13,8 +13,8 @@ const PlanYourTrip = () => {
           <div className="row justify-content-center">
             <div className="col-12 col-lg-9 m-auto text-center">
               <Image
-                width={100}
-                height={100}
+                width={600}
+                height={600}
                 className="img-fluid"
                 src="https://d2qa7a8q0vuocm.cloudfront.net/frontend/assets/img/homepage/plan-your-trip-asset.png"
                 alt="plan your trip"

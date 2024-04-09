@@ -25,8 +25,8 @@ const BestTrips = () => {
                 <div className="trend-item1 mb-4">
                   <div className="trend-image position-relative rounded">
                     <Image
-                      width={100}
-                      height={100}
+                      width={600}
+                      height={600}
                       src="https://d2qa7a8q0vuocm.cloudfront.net/frontend/assets/img/Vietnam.png"
                       alt="image"
                     />
@@ -43,8 +43,8 @@ const BestTrips = () => {
                 <div className="trend-item1 mb-4">
                   <div className="trend-image position-relative rounded">
                     <Image
-                      width={100}
-                      height={100}
+                      width={600}
+                      height={600}
                       src="https://d2qa7a8q0vuocm.cloudfront.net/frontend/assets/img/Bali.png"
                       alt="image"
                     />
@@ -65,8 +65,8 @@ const BestTrips = () => {
                     <div className="trend-item1">
                       <div className="trend-image position-relative rounded">
                         <Image
-                          width={100}
-                          height={100}
+                          width={400}
+                          height={400}
                           src="https://d2qa7a8q0vuocm.cloudfront.net/frontend/assets/img/Dubai.png"
                           alt="image"
                         />
@@ -85,8 +85,8 @@ const BestTrips = () => {
                     <div className="trend-item1">
                       <div className="trend-image position-relative rounded">
                         <Image
-                          width={100}
-                          height={100}
+                          width={400}
+                          height={400}
                           src="https://d2qa7a8q0vuocm.cloudfront.net/frontend/assets/img/Kashmir.png"
                           alt="image"
                         />
@@ -105,8 +105,8 @@ const BestTrips = () => {
                     <div className="trend-item1">
                       <div className="trend-image position-relative rounded">
                         <Image
-                          width={100}
-                          height={100}
+                          width={400}
+                          height={400}
                           src="https://d2qa7a8q0vuocm.cloudfront.net/frontend/assets/img/Kerala.png"
                           alt="image"
                         />
@@ -125,8 +125,8 @@ const BestTrips = () => {
                     <div className="trend-item1">
                       <div className="trend-image position-relative rounded">
                         <Image
-                          width={100}
-                          height={100}
+                          width={400}
+                          height={400}
                           src="https://d2qa7a8q0vuocm.cloudfront.net/frontend/assets/img/Singapore.png"
                           alt="image"
                         />
@@ -145,8 +145,8 @@ const BestTrips = () => {
                     <div className="trend-item1">
                       <div className="trend-image position-relative rounded">
                         <Image
-                          width={100}
-                          height={100}
+                          width={400}
+                          height={400}
                           src="https://d2qa7a8q0vuocm.cloudfront.net/frontend/assets/img/Thailand.png"
                           alt="image"
                         />
@@ -165,8 +165,8 @@ const BestTrips = () => {
                     <div className="trend-item1">
                       <div className="trend-image position-relative rounded">
                         <Image
-                          width={100}
-                          height={100}
+                          width={400}
+                          height={400}
                           src="https://d2qa7a8q0vuocm.cloudfront.net/frontend/assets/img/Himachal-Pradesh.png"
                           alt="image"
                         />
@@ -185,8 +185,8 @@ const BestTrips = () => {
                     <div className="trend-item1">
                       <div className="trend-image position-relative rounded">
                         <Image
-                          width={100}
-                          height={100}
+                          width={400}
+                          height={400}
                           src="https://d2qa7a8q0vuocm.cloudfront.net/frontend/assets/img/Sri-Lanka.png"
                           alt="image"
                         />
@@ -205,8 +205,8 @@ const BestTrips = () => {
                     <div className="trend-item1">
                       <div className="trend-image position-relative rounded">
                         <Image
-                          width={100}
-                          height={100}
+                          width={400}
+                          height={400}
                           src="https://d2qa7a8q0vuocm.cloudfront.net/frontend/assets/img/Maldives.png"
                           alt="image"
                         />
@@ -225,8 +225,8 @@ const BestTrips = () => {
                     <div className="trend-item1">
                       <div className="trend-image position-relative rounded">
                         <Image
-                          width={100}
-                          height={100}
+                          width={400}
+                          height={400}
                           src="https://d2qa7a8q0vuocm.cloudfront.net/frontend/assets/img/Rajasthan.png"
                           alt="image"
                         />
@@ -245,8 +245,8 @@ const BestTrips = () => {
                     <div className="trend-item1">
                       <div className="trend-image position-relative rounded">
                         <Image
-                          width={100}
-                          height={100}
+                          width={400}
+                          height={400}
                           src="https://d2qa7a8q0vuocm.cloudfront.net/frontend/assets/img/azerbaijan.png"
                           alt="image"
                         />
@@ -265,8 +265,8 @@ const BestTrips = () => {
                     <div className="trend-item1">
                       <div className="trend-image position-relative rounded">
                         <Image
-                          width={100}
-                          height={100}
+                          width={400}
+                          height={400}
                           src="https://d2qa7a8q0vuocm.cloudfront.net/frontend/assets/img/Turkey.png"
                           alt="image"
                         />
@@ -285,8 +285,8 @@ const BestTrips = () => {
                     <div className="trend-item1">
                       <div className="trend-image position-relative rounded">
                         <Image
-                          width={100}
-                          height={100}
+                          width={400}
+                          height={400}
                           src="https://d2qa7a8q0vuocm.cloudfront.net/frontend/assets/img/Georgia.png"
                           alt="image"
                         />

@@ -37,7 +37,7 @@ const Footer = () => {
                 <Swiper
                   modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
                   spaceBetween={2}
-                  slidesPerView={4}
+                  slidesPerView={6}
                   autoplay={{ delay: 3000 }}
                 >
                   <SwiperSlide>

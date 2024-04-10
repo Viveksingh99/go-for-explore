@@ -2,18 +2,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import {
-  Navigation,
-  Pagination,
-  Scrollbar,
-  A11y,
-  Autoplay,
-} from "swiper/modules";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import "swiper/css/scrollbar";
 
 const UpcomingTrips = () => {
   return (
@@ -26,22 +14,15 @@ const UpcomingTrips = () => {
             </h2>
           </div>
           <div className="row justify-content-center">
-            <div className="upcoming-trips-slider">
-              <Swiper
-                modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
-                spaceBetween={10}
-                slidesPerView={4}
-                autoplay={{ delay: 3000 }}
-              >
-                <SwiperSlide>
+            <div className="flex flex-wrap gap-20 justify-center upcoming-trips-slider">
                   <div className="col-lg-3 col-md-6 col-sm-6">
                     <Link href="https://go4explore.com/trips/kazakhstan-5d4n"></Link>
                     <div className="trend-item box-shadow rounded">
                       <Link href="https://go4explore.com/trips/kazakhstan-5d4n">
                         <div className="trend-image position-relative">
                           <Image
-                            width={600}
-                            height={600}
+                            width={400}
+                            height={400}
                             src="https://d2qa7a8q0vuocm.cloudfront.net/images/10635320231113122348.png"
                             alt="upcoming-trips"
                           />
@@ -75,16 +56,15 @@ const UpcomingTrips = () => {
                       </div>
                     </div>
                   </div>
-                </SwiperSlide>
-                <SwiperSlide>
+              
                   <div className="col-lg-3 col-md-6 col-sm-6">
                     <Link href="https://go4explore.com/trips/rajasthan-backpacking-udaipur-jodhpur-jaisalmer"></Link>
                     <div className="trend-item box-shadow rounded">
                       <Link href="https://go4explore.com/trips/rajasthan-backpacking-udaipur-jodhpur-jaisalmer">
                         <div className="trend-image position-relative">
                           <Image
-                            width={600}
-                            height={600}
+                            width={400}
+                            height={400}
                             src="https://d2qa7a8q0vuocm.cloudfront.net/images/39972720231024132811.png"
                             alt="upcoming-trips"
                           />
@@ -120,16 +100,16 @@ const UpcomingTrips = () => {
                       </div>
                     </div>
                   </div>
-                </SwiperSlide>
-                <SwiperSlide>
+                
+              
                   <div className="col-lg-3 col-md-6 col-sm-6">
                     <Link href="https://go4explore.com/trips/vietnam-signature-10d9n"></Link>
                     <div className="trend-item box-shadow rounded">
                       <Link href="https://go4explore.com/trips/vietnam-signature-10d9n">
                         <div className="trend-image position-relative">
                           <Image
-                            width={600}
-                            height={600}
+                            width={400}
+                            height={400}
                             src="https://d2qa7a8q0vuocm.cloudfront.net/images/396320230630111014.png"
                             alt="upcoming-trips"
                           />
@@ -167,16 +147,16 @@ const UpcomingTrips = () => {
                       </div>
                     </div>
                   </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="col-lg-3 col-md-6 col-sm-6">
+                
+              
+                  {/* <div className="col-lg-3 col-md-6 col-sm-6">
                     <Link href="https://go4explore.com/trips/leh-ladakh-with-turtuk"></Link>
                     <div className="trend-item box-shadow rounded">
                       <Link href="https://go4explore.com/trips/leh-ladakh-with-turtuk">
                         <div className="trend-image position-relative">
                           <Image
-                            width={600}
-                            height={600}
+                            width={400}
+                            height={400}
                             src="https://d2qa7a8q0vuocm.cloudfront.net/images/36351120230330170705.png"
                             alt="upcoming-trips"
                           />
@@ -213,17 +193,17 @@ const UpcomingTrips = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="col-lg-3 col-md-6 col-sm-6">
+                  </div> */}
+                
+              
+                  {/* <div className="col-lg-3 col-md-6 col-sm-6">
                     <Link href="https://go4explore.com/trips/meghalaya-backpacking"></Link>
                     <div className="trend-item box-shadow rounded">
                       <Link href="https://go4explore.com/trips/meghalaya-backpacking">
                         <div className="trend-image position-relative">
                           <Image
-                            width={600}
-                            height={600}
+                            width={400}
+                            height={400}
                             src="https://d2qa7a8q0vuocm.cloudfront.net/images/33104120220720040415.png"
                             alt="upcoming-trips"
                           />
@@ -257,16 +237,16 @@ const UpcomingTrips = () => {
                       </div>
                     </div>
                   </div>
-                </SwiperSlide>
-                <SwiperSlide>
+                 */}
+              
                   <div className="col-lg-3 col-md-6 col-sm-6">
                     <Link href="https://go4explore.com/trips/manali-leh-backpacking-bike-trip"></Link>
                     <div className="trend-item box-shadow rounded">
                       <Link href="https://go4explore.com/trips/manali-leh-backpacking-bike-trip">
                         <div className="trend-image position-relative">
                           <Image
-                            width={600}
-                            height={600}
+                            width={400}
+                            height={400}
                             src="https://d2qa7a8q0vuocm.cloudfront.net/images/15700420230330171626.png"
                             alt="upcoming-trips"
                           />
@@ -304,16 +284,16 @@ const UpcomingTrips = () => {
                       </div>
                     </div>
                   </div>
-                </SwiperSlide>
-                <SwiperSlide>
+                
+              
                   <div className="col-lg-3 col-md-6 col-sm-6">
                     <Link href="https://go4explore.com/trips/winter-spiti"></Link>
                     <div className="trend-item box-shadow rounded">
                       <Link href="https://go4explore.com/trips/winter-spiti">
                         <div className="trend-image position-relative">
                           <Image
-                            width={600}
-                            height={600}
+                            width={400}
+                            height={400}
                             src="https://d2qa7a8q0vuocm.cloudfront.net/images/20380220200228132700.png"
                             alt="upcoming-trips"
                           />
@@ -347,16 +327,16 @@ const UpcomingTrips = () => {
                       </div>
                     </div>
                   </div>
-                </SwiperSlide>
-                <SwiperSlide>
+                
+              
                   <div className="col-lg-3 col-md-6 col-sm-6">
                     <Link href="https://go4explore.com/trips/chopta-tungnath-deoriatal"></Link>
                     <div className="trend-item box-shadow rounded">
                       <Link href="https://go4explore.com/trips/chopta-tungnath-deoriatal">
                         <div className="trend-image position-relative">
                           <Image
-                            width={600}
-                            height={600}
+                            width={400}
+                            height={400}
                             src="https://d2qa7a8q0vuocm.cloudfront.net/images/24503320230702175334.png"
                             alt="upcoming-trips"
                           />
@@ -392,8 +372,7 @@ const UpcomingTrips = () => {
                       </div>
                     </div>
                   </div>
-                </SwiperSlide>
-              </Swiper>
+                
             </div>
           </div>
         </div>

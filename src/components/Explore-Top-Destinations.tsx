@@ -28,9 +28,9 @@ const ExploreTop = () => {
           <div className="row justify-content-center">
             <div className="upcoming-trips-slider">
               <Swiper
-                modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
-                spaceBetween={1}
-                slidesPerView={4}
+                modules={[Navigation, Pagination, Scrollbar, A11y]}
+                spaceBetween={5}
+                slidesPerView={1}
                 autoplay={{ delay: 3000 }}
               >
                 <SwiperSlide>
@@ -40,8 +40,8 @@ const ExploreTop = () => {
                       <Link href="https://go4explore.com/trips/kazakhstan-5d4n">
                         <div className="trend-image position-relative">
                           <Image
-                            width={100}
-                            height={100}
+                            width={800}
+                            height={800}
                             src="https://d2qa7a8q0vuocm.cloudfront.net/images/10635320231113122348.png"
                             alt="upcoming-trips"
                             style={{ width: 264, height: 148 }}
@@ -86,8 +86,8 @@ const ExploreTop = () => {
                       <Link href="https://go4explore.com/trips/rajasthan-backpacking-udaipur-jodhpur-jaisalmer">
                         <div className="trend-image position-relative">
                           <Image
-                            width={100}
-                            height={100}
+                            width={800}
+                            height={800}
                             src="https://d2qa7a8q0vuocm.cloudfront.net/images/39972720231024132811.png"
                             alt="upcoming-trips"
                             style={{ width: 264, height: 148 }}
@@ -132,8 +132,8 @@ const ExploreTop = () => {
                       <Link href="https://go4explore.com/trips/vietnam-signature-10d9n">
                         <div className="trend-image position-relative">
                           <Image
-                            width={100}
-                            height={100}
+                            width={800}
+                            height={800}
                             src="https://d2qa7a8q0vuocm.cloudfront.net/images/396320230630111014.png"
                             alt="upcoming-trips"
                             style={{ width: 264, height: 148 }}
@@ -185,8 +185,8 @@ const ExploreTop = () => {
                       <Link href="https://go4explore.com/trips/leh-ladakh-with-turtuk">
                         <div className="trend-image position-relative">
                           <Image
-                            width={100}
-                            height={100}
+                            width={800}
+                            height={800}
                             src="https://d2qa7a8q0vuocm.cloudfront.net/images/36351120230330170705.png"
                             alt="upcoming-trips"
                             style={{ width: 264, height: 148 }}
@@ -238,8 +238,8 @@ const ExploreTop = () => {
                       <Link href="https://go4explore.com/trips/meghalaya-backpacking">
                         <div className="trend-image position-relative">
                           <Image
-                            width={100}
-                            height={100}
+                            width={800}
+                            height={800}
                             src="https://d2qa7a8q0vuocm.cloudfront.net/images/33104120220720040415.png"
                             alt="upcoming-trips"
                             style={{ width: 264, height: 148 }}
@@ -284,8 +284,8 @@ const ExploreTop = () => {
                       <Link href="https://go4explore.com/trips/manali-leh-backpacking-bike-trip">
                         <div className="trend-image position-relative">
                           <Image
-                            width={100}
-                            height={100}
+                            width={800}
+                            height={800}
                             src="https://d2qa7a8q0vuocm.cloudfront.net/images/15700420230330171626.png"
                             alt="upcoming-trips"
                             style={{ width: 264, height: 148 }}
@@ -337,8 +337,8 @@ const ExploreTop = () => {
                       <Link href="https://go4explore.com/trips/winter-spiti">
                         <div className="trend-image position-relative">
                           <Image
-                            width={100}
-                            height={100}
+                            width={800}
+                            height={800}
                             src="https://d2qa7a8q0vuocm.cloudfront.net/images/20380220200228132700.png"
                             alt="upcoming-trips"
                             style={{ width: 264, height: 148 }}
@@ -383,8 +383,8 @@ const ExploreTop = () => {
                       <Link href="https://go4explore.com/trips/chopta-tungnath-deoriatal">
                         <div className="trend-image position-relative">
                           <Image
-                            width={100}
-                            height={100}
+                            width={800}
+                            height={800}
                             src="https://d2qa7a8q0vuocm.cloudfront.net/images/24503320230702175334.png"
                             alt="upcoming-trips"
                             style={{ width: 264, height: 148 }}
